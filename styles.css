@@ -1,0 +1,129 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    zoom: 110%
+}
+
+html {
+    height: 100%;
+    background-image: url("background.jpg");
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.info {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.desc {
+    display: flex;
+    text-align: center;
+}
+
+.cred-title {
+    font-size: 20px;
+    text-decoration: underline solid white 1px;
+}
+
+.credits {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 10px 40px 10px 40px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.app-title {
+    font-size: 20px;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.26);
+}
+
+.weather-pic img {
+    width: 50px;
+}
+
+.temperature {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    user-select: none;
+    margin: 5px 0px;
+    width: 130px;
+}
+
+.temperature:hover {
+    background: rgba(19, 19, 19, 0.17);
+    border-radius: 20px;
+}
+
+.temperature p {
+    font-size: 70px;
+}
+
+.temperature p span {
+    font-size: 25px;
+}
+
+.temperature-info {
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    display: inline;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.temperature-info p {
+    font-size: 20px;
+}
+
+.location {
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    display: inline;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+p {
+    margin: 5px 0 5px 0;
+    color: #ffffff;
+}

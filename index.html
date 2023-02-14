@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather App </title>
+        <link rel="stylesheet" href = "styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="info">
+                <p class="title">Weather API</p>
+                <p class="desc">This web page uses the OpenWeather API to display the user's weather and
+                    temperature, given that their browser and permissions allow geolocation.</p>
+                <p>-</p>
+                <p class="cred-title">Credits</p>
+                <p class="credits">https://openweathermap.org/</p>
+                <a href="https://www.youtube.com/watch?v=KqZGuzrY9D4" class="credits"><p>Code Explained</p></a>
+            </div>
+            <div class="container">
+                <div class="notification"></div>
+                <div class="weather">
+                    <div class="weather-pic">'
+                        <img src = icons/unknown.png>
+                    </div>
+                    <div class="temperature">
+                        <p>°<span>C</span></p>
+                    </div>
+                    <div class="temperature-info"><p></p></div>
+                    <div class="location">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      <script src="script.js"></script>
+    </body>
+</html>
